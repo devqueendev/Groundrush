@@ -21,8 +21,8 @@ staticfiles/
 
 # Virtual environments
 venv/
-env/
-ENV/
+environments/
+environments/
 .venv/
 .ENV/
 pip-log.txt

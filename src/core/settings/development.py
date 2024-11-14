@@ -21,6 +21,12 @@ settings = Settings()
 ALLOWED_HOSTS = ["*"]
 DEBUG = settings.DEBUG
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
@@ -31,3 +37,4 @@ DATABASES = {
         "PORT": settings.DB_PORT,
     }
 }
+
